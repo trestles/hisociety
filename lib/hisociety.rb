@@ -1,5 +1,5 @@
 require "hisociety/engine"
-require 'decorators'
+require "decorators"
 
 module Hisociety
 end
