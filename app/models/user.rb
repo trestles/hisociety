@@ -1,5 +1,5 @@
 
-class User < ActiveRecord::Base
+class ::User < ActiveRecord::Base
   has_many :hisociety_posts, :class_name => "Hisociety::Post"
 
   def say_more_stuff
